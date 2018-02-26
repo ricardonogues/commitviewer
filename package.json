@@ -1,0 +1,46 @@
+{
+  "name": "codacycommitviewer",
+  "version": "1.0.0",
+  "description": "Codacy Commit Viewer Test",
+  "main": "index.js",
+  "scripts": {
+    "start": "export NODE_ENV=dev && webpack-dev-server --content-base build/ --inline --open --watch & json-server --watch src/data/db.json",
+    "build": "export NODE_ENV=production && webpack -p --profile --display-error-details --progress",
+    "test": "export NODE_ENV=test && jest"
+  },
+  "author": "Ricardo Nogues",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-3": "^6.24.1",
+    "css-loader": "^0.28.9",
+    "eslint": "^4.18.0",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "html-webpack-plugin": "^2.30.1",
+    "install": "^0.10.4",
+    "node-sass": "^4.7.2",
+    "npm": "^5.6.0",
+    "postcss-loader": "^2.1.0",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.20.2",
+    "webpack": "^3.11.0",
+    "webpack-dev-server": "^2.11.1"
+  },
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "copy-to-clipboard": "^3.0.8",
+    "immutability-helper": "^2.6.5",
+    "normalizr": "^3.2.4",
+    "react": "^16.2.0",
+    "react-bootstrap": "^0.32.1",
+    "react-dom": "^16.2.0",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.2.2",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0",
+    "reselect": "^3.0.1"
+  }
+}

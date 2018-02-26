@@ -1,0 +1,74 @@
+{
+	"comparisons": [
+		{
+			"id": 23244,
+			"up_to_standards": true,
+			"change": {
+				"issues": 3,
+				"duplication": 0,
+				"complexity": 33,
+				"coverage": 1
+			},
+			"commits": [
+				{
+					"id": 1814466,
+					"uuid": "b30945bfcabea3914eabe71bb5b933fa37a38c58",
+					"parent": "50febaa6888a7c1de82e93f01b1d81bf0595445d",
+					"author_timestamp": 1517571172621,
+					"commit_timestamp": 1517571190004,
+					"created": 1517571170102,
+					"updated": null,
+					"type": "Source",
+					"message": "Merged in fixes-basecamp (pull request #1346)",
+					"author": {
+						"name": "Hugo Sousa",
+						"email": "hugo@codacy.com"
+					},
+					"notifications": {
+						"provider": true,
+						"email": true
+					},
+					"statistics": {
+						"clone_started": 1517571496986,
+						"clone_ended": 1517571520624
+					}
+				},
+				{
+					"id": 1814466,
+					"uuid": "5681eb05b373349ee012e3014f8302280522df50",
+					"parent": "050709ede1864947cc3c5745b4575177f336e113",
+					"author_timestamp": 1517571172621,
+					"commit_timestamp": 1517571190004,
+					"created": 1517571496986,
+					"updated": null,
+					"type": "Destination",
+					"message": "Merged in remove-project-quality-from-chart-FT-3973 (pull request #1345)",
+					"author": {
+						"name": "Inês Gomes",
+						"email": "igomes@codacy.com"
+					},
+					"notifications": {
+						"provider": true,
+						"email": true
+					},
+					"statistics": {
+						"clone_started": 1417371496986,
+						"clone_ended": 1512571520624
+					}
+				}
+			]
+		}
+	],
+	"reanalyse": [
+		{
+			"id": 23244,
+			"up_to_standards": false,
+			"change": {
+				"issues": 12,
+				"duplication": 0,
+				"complexity": 33,
+				"coverage": 1
+			}
+		}
+	]
+}

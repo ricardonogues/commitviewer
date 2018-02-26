@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600");
+
+$primary-color: #cee6f3;
+$secondary-color: #4474ff;
+$good: #0bb960;
+
+body{
+	padding: 10px;
+	margin: 0;
+	font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
+}
+
+*:focus{
+	outline: none;
+}
